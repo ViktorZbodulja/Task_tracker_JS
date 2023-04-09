@@ -164,6 +164,9 @@ select {
     .wrapper h1 {
         text-align: center;
     }
+    form input, form button  {
+        font-size: 1.5rem;
+    }
 }
 @media (max-width: 510px) {
     .todo_input {
