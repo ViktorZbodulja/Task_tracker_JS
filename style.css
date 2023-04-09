@@ -22,7 +22,7 @@ header, form {
 
 form input, form button {
     padding: 0.5rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     border: none;
     background: white;
 }
@@ -57,6 +57,7 @@ form button:hover {
 }
 .todo li {
     flex: 1;
+    word-wrap: break-word;
 }
 .trash_btn, .complete_btn {
     background: #ff6f47;
@@ -112,4 +113,49 @@ select {
 .select:hover::after {
     background: white;
     color: #ff6f47;
+}
+
+@media (max-width: 750px) {
+    form {
+        flex-wrap: wrap;
+        margin-left: 0.5rem;
+    }
+    .todo-container {
+        margin-top: 3rem;
+    }
+}
+@media (max-width: 647px) {
+    form {
+        
+        align-content: flex-start;
+    }
+    
+}
+@media (max-width: 510px) {
+    .todo_input {
+        width: 75%;
+    }
+    .todo li {
+        font-size: 1.2rem;
+    }
+    form {
+        margin-left: 0rem;
+    }
+    .todo-container {
+        margin: 0rem 1rem 2rem 1rem;
+    }
+    
+}
+@media (max-width: 390px) {
+    .todo li {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 355px) {
+    h1 {
+        font-size: 1.9rem;
+    }
+    .todo li {
+        font-size: 0.75rem;
+    }
 }
