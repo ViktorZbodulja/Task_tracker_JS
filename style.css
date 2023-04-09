@@ -22,6 +22,7 @@ body {
     border-radius: 10px;
     background: #1C1A42;
     width: 45%;
+    min-height: 50vh;
 }
 .wrapper h1 {
     font-size: 3rem;
@@ -137,9 +138,6 @@ select {
     color: #855AFD;
 }
 @media (max-width: 1500px) {
-    .todo-container {
-        margin-top: 3rem;
-    }
     .wrapper {
         width: 55%;
     }
