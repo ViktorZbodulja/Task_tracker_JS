@@ -153,6 +153,7 @@ select {
     }
     form {
         align-content: center;
+        margin-top: 1rem;
     }
 }
 @media (max-width: 750px) {
